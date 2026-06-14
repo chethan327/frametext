@@ -216,16 +216,6 @@ User clicks "Capture Frame"
 
 ---
 
-## Resume Highlights
-
-- Built a **Chrome Manifest V3 browser extension** from scratch with zero dependencies outside of Tesseract.js
-- Implemented **real-time video frame capture** using the HTML5 Canvas API (`ctx.drawImage(video)`)
-- Integrated **Tesseract.js WebAssembly OCR** supporting 9 languages, running entirely on-device with no backend
-- Designed a **sandboxed iframe architecture** to load CDN scripts within Manifest V3's strict Content Security Policy
-- Built a **cross-frame postMessage communication system** to bridge the sandboxed overlay with Chrome APIs
-- Implemented **DRM detection** by sampling canvas pixel data to identify blank frames before user-facing errors
-
----
 
 ## Tech Used at a Glance
 
@@ -241,9 +231,8 @@ MIT License — free to use, modify, and distribute. See [LICENSE](LICENSE) for 
 
 ## Author
 
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+**Chethan**
+
 
 ---
 
